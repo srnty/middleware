@@ -1,0 +1,30 @@
+{
+    "name": "srnty/middleware",
+    "description": "Middleware Implementation based on PSR-15",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Gerassimov",
+            "email": "gerasimov.v.s@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/http-server-middleware": "^1.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "@alpha"
+    },
+    "autoload": {
+        "psr-4": {
+            "Srnty\\Middleware\\": "src/"
+        }
+    },
+    "keywords": [
+        "srnty",
+        "psr",
+        "psr-15",
+        "middleware"
+    ]
+}
